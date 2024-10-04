@@ -230,4 +230,5 @@ footer .pagination div {
 
 footer .addCart {
     font-size: 2.4rem;
+    text-transform: uppercase;
 }
