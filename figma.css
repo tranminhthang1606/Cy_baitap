@@ -8,6 +8,12 @@ ul {
     padding: 0;
 }
 
+.collapse-screen{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
