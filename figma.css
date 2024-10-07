@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
-    
+
 }
 
 
- ul{
+ul {
     padding: 0;
- }
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -44,10 +45,12 @@ header .logo {
     text-align: left;
 
 }
-.navbar li .active{
+
+.navbar li .active {
     color: rgba(140, 197, 249, 1);
     position: relative;
 }
+
 .navbar li .active::before {
     position: absolute;
     content: " ";
@@ -56,7 +59,17 @@ header .logo {
     top: 20px;
     right: 0px;
     background: rgba(140, 197, 249, 1);
-    
+
+}
+
+.language .menu-icon div {
+
+    width: 35px;
+    height: 5px;
+    background-color: rgba(140, 197, 249, 1);;
+    margin: 6px ;
+    display: none;
+
 }
 
 header .language {
@@ -76,7 +89,8 @@ header .language {
     max-width: 641px;
     width: 100%;
 }
-.about_us .about_us_left b{
+
+.about_us .about_us_left b {
     color: rgba(140, 197, 249, 1);
 
 }
@@ -200,18 +214,20 @@ section .meet_team button {
 
 
 section .blockquote {
-    
+
     padding: 75px;
     background: rgba(251, 251, 251, 1);
     margin-top: 102px;
 
 }
-section .blockquote div{
+
+section .blockquote div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 section .blockquote p {
     font-family: Rubik;
     font-size: 33px;
@@ -225,7 +241,7 @@ section .blockquote p {
 
 }
 
-section .blockquote span{
+section .blockquote span {
     float: right;
 }
 
@@ -380,9 +396,11 @@ footer .footer_cate ul {
     flex-direction: column;
     gap: 10px;
 }
-footer .footer_brand_social_media{
+
+footer .footer_brand_social_media {
     margin-top: 30px;
 }
+
 footer .footer_cate ul li a {
     text-decoration: none;
     font-family: Rubik;
@@ -398,7 +416,9 @@ footer .footer_cate ul li a {
     header .navbar {
         display: none;
     }
-
+    .language .menu-icon div{
+        display: block;
+    }
     section .about_us {
         padding: 0 20px;
     }
@@ -408,61 +428,63 @@ footer .footer_cate ul li a {
         grid-template-rows: repeat(4, 309px);
     }
 
-    section .positions{
+    section .positions {
         flex-direction: column;
         align-items: center;
     }
 
-    section .positions .positions_middle_text{
+    section .positions .positions_middle_text {
         text-align: center;
     }
 
-    footer{
+    footer {
         flex-wrap: wrap;
         flex-direction: column;
         padding: 185px 0;
         width: 100%;
     }
 
-    footer .footer_cate{
+    footer .footer_cate {
         display: flex;
         flex-direction: row;
     }
-    footer .footer_cate ul{
+
+    footer .footer_cate ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .meet_team .navbar{
+    .meet_team .navbar {
         flex-wrap: wrap;
     }
 
-    
+
 }
 
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:480px) {
     section .block_card_info {
         grid-template-columns: repeat(1, minmax(0, 1fr));
         grid-template-rows: repeat(8, 309px);
     }
 
-    section .about_us{
+    section .about_us {
         flex-direction: column;
     }
 
-    footer{
+    footer {
         flex-wrap: wrap;
         flex-direction: row;
     }
 
-    footer .footer_cate{
+    footer .footer_cate {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    footer .footer_cate ul{
+
+    footer .footer_cate ul {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -472,17 +494,18 @@ footer .footer_cate ul li a {
         display: flex;
         justify-content: center;
         gap: 0;
-        
+
     }
 
-    section .following_roots .following_roots_item img{
+    section .following_roots .following_roots_item img {
         transform: translateX(20px);
     }
-    section .following_roots .following_roots_item .right_root h3{
+
+    section .following_roots .following_roots_item .right_root h3 {
         font-size: 35px;
     }
 
-    section .following_roots .following_roots_item .right_root p{
+    section .following_roots .following_roots_item .right_root p {
         font-size: 15px;
     }
 }
