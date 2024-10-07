@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+ ul{
+    padding: 0;
+ }
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 81px 79px 0 79px;
+
+}
+
+header .logo {
+    font-family: Marko One;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    color: rgba(140, 197, 249, 1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: left;
+
+}
+.navbar li .active{
+    color: rgba(140, 197, 249, 1);
+    position: relative;
+}
+.navbar li .active::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 4px;
+    top: 20px;
+    right: 0px;
+    background: rgba(140, 197, 249, 1);
+    
+}
+
+header .language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.about_us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 82px;
+}
+
+.about_us .about_us_left {
+    max-width: 641px;
+    width: 100%;
+}
+.about_us .about_us_left b{
+    color: rgba(140, 197, 249, 1);
+
+}
+
+.about_us .about_us_left h2 {
+    font-family: Rubik;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: rgba(140, 197, 249, 1);
+}
+
+.about_us .about_us_left p {
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.about_us .about_us_right {
+    max-width: 353px;
+}
+
+.about_us .about_us_right img {
+    max-width: 353px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+section .meet_team {
+    text-align: center;
+    margin-top: 157px;
+    padding: 0 79px 0 79px;
+}
+
+section .meet_team h2 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    color: rgba(11, 19, 42, 1);
+}
+
+section .meet_team .navbar {
+
+    margin-top: 58px;
+
+}
+
+section .block_card_info {
+    margin-top: 81px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 309px);
+    gap: 30px;
+    justify-content: center;
+}
+
+section .block_card_info .card_info {
+    background: white;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .block_card_info .card_info h3 {
+    font-family: Rubik;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 26.07px;
+    text-align: center;
+    color: rgba(140, 197, 249, 1);
+}
+
+section .block_card_info .card_info p {
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 16.59px;
+    text-align: center;
+    color: rgba(189, 189, 189, 1);
+    margin-top: 12px;
+}
+
+section .block_card_info .card_info img {
+    border-radius: 999px;
+}
+
+section .block_card_info .card_info span {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.59px;
+    text-align: center;
+    color: rgba(189, 189, 189, 1);
+
+}
+
+section .meet_team button {
+    margin-top: 58px;
+    font-family: Rubik;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    max-width: 383px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgba(130, 130, 130, 1);
+}
+
+
+section .blockquote {
+    
+    padding: 75px;
+    background: rgba(251, 251, 251, 1);
+    margin-top: 102px;
+
+}
+section .blockquote div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section .blockquote p {
+    font-family: Rubik;
+    font-size: 33px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 39.11px;
+    text-align: left;
+    color: rgba(79, 79, 79, 1);
+    margin-top: 43px;
+    max-width: 1140px;
+
+}
+
+section .blockquote span{
+    float: right;
+}
+
+section .following_roots {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 70px;
+
+
+}
+
+section .following_roots h3 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 41.48px;
+    text-align: center;
+    color: rgba(79, 79, 79, 1);
+}
+
+section .following_roots .following_roots_item {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+section .following_roots .following_roots_item .right_root {
+    max-width: 917px;
+}
+
+
+
+section .following_roots .following_roots_item .right_root h3 {
+    font-family: Rubik;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 65.18px;
+    text-align: left;
+    color: rgba(140, 197, 249, 1);
+}
+
+section .following_roots .following_roots_item .right_root p {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 41.48px;
+    text-align: left;
+    color: rgba(79, 79, 79, 1);
+}
+
+section .positions {
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 64px 46px 35px 46px;
+    transform: translateY(100px);
+    z-index: 1;
+    background: white;
+    align-items: center;
+
+}
+
+section .positions_middle_text {
+    max-width: 421px;
+    width: 100%;
+}
+
+section .positions h4 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    color: rgba(11, 19, 42, 1);
+
+}
+
+section .positions p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+section .positions button {
+    width: 250px;
+    height: 60px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(140, 197, 249, 1);
+    color: white;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    outline: none;
+    border: none;
+}
+
+
+footer {
+    display: flex;
+    background: rgba(248, 248, 248, 1);
+    justify-content: space-between;
+    padding: 185px 150px;
+}
+
+
+footer .footer_brand_logo {
+    font-family: Marko One;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    display: flex;
+    color: rgba(140, 197, 249, 1);
+}
+
+
+footer .footer_brand_info {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(189, 189, 189, 1);
+    max-width: 400px;
+}
+
+footer .footer_brand p {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+footer .footer_cate {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .footer_cate ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .footer_brand_social_media{
+    margin-top: 30px;
+}
+footer .footer_cate ul li a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(79, 86, 101, 1);
+}
+
+
+
+@media only screen and (max-width:768px) {
+    header .navbar {
+        display: none;
+    }
+
+    section .about_us {
+        padding: 0 20px;
+    }
+
+    section .block_card_info {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-rows: repeat(4, 309px);
+    }
+
+    section .positions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section .positions .positions_middle_text{
+        text-align: center;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 185px 0;
+        width: 100%;
+    }
+
+    footer .footer_cate{
+        display: flex;
+        flex-direction: row;
+    }
+    footer .footer_cate ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .meet_team .navbar{
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:375px) {
+    section .block_card_info {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(8, 309px);
+    }
+
+    section .about_us{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    footer .footer_cate{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    footer .footer_cate ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    section .following_roots .following_roots_item {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        
+    }
+
+    section .following_roots .following_roots_item img{
+        transform: translateX(20px);
+    }
+    section .following_roots .following_roots_item .right_root h3{
+        font-size: 35px;
+    }
+
+    section .following_roots .following_roots_item .right_root p{
+        font-size: 15px;
+    }
+}
