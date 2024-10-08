@@ -446,10 +446,15 @@
     }
 
     footer {
-        display: flex;
-        background: rgba(248, 248, 248, 1);
-        justify-content: space-between;
-        padding: 185px 150px;
+        width: 100%;
+  
+  background: rgba(248, 248, 248, 1);
+        .collapse-screen{
+            display: flex;
+            background: rgba(248, 248, 248, 1);
+            justify-content: space-between;
+            padding: 185px 150px;
+        }
         .footer_brand_logo {
             font-family: Marko One;
             font-size: 22px;
@@ -504,12 +509,12 @@
 
 @media only screen and (max-width: 768px) {
     .container {
-        header{
-            .navbar{
+        header {
+            .navbar {
                 display: none;
             }
 
-            .icon{
+            .icon {
                 display: block !important;
                 color: black;
             }
@@ -523,13 +528,11 @@
                 .section_banner_left {
                     align-items: center;
                     gap: 20px;
-                    h2{
+                    h2 {
                         white-space: wrap;
                     }
                 }
             }
-
-            
 
             .section_statistical {
                 margin-top: 50px;
@@ -537,7 +540,7 @@
                     padding: 10px;
                     flex-direction: column;
                     align-items: start;
-                    >div{
+                    > div {
                         justify-content: flex-start;
                     }
                 }
@@ -569,7 +572,6 @@
                     width: 100% !important;
                 }
             }
-            
         }
         footer {
             flex-direction: column;
