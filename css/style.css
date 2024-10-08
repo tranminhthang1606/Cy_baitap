@@ -547,7 +547,7 @@
   .container section .section_products_group > div {
     width: 100% !important;
   }
-  .container footer {
+  .container footer .collapse-screen {
     flex-direction: column;
     padding-left: 10px;
   }

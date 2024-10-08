@@ -574,8 +574,10 @@
             }
         }
         footer {
+            .collapse-screen{
             flex-direction: column;
             padding-left: 10px;
+            }
         }
     }
 }
