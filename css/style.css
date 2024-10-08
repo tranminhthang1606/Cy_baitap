@@ -1,0 +1,552 @@
+.container section .section_customers .section_customers_slider, .container section .section_features, .container section .section_statistical .section_statistical_group, .container section .section_banner, .container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container section .section_customers .section_customers_heading, .container section .section_relations .section_relations_heading, .container section .section_products .section_products_heading {
+  text-align: center;
+}
+.container section .section_customers .section_customers_heading h3, .container section .section_relations .section_relations_heading h3, .container section .section_products .section_products_heading h3 {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+}
+.container section .section_customers .section_customers_heading p, .container section .section_relations .section_relations_heading p, .container section .section_products .section_products_heading p {
+  max-width: 776px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.collapse-screen {
+  max-width: 1209px;
+  width: 100%;
+  margin: auto;
+}
+
+.container .badge {
+  position: relative;
+  background: black;
+  height: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 21px;
+}
+.container .badge p {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+}
+.container .badge img {
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  top: 22px;
+  right: 22px;
+}
+.container header {
+  align-items: center;
+}
+.container header .logo {
+  font-family: Marko One;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(140, 197, 249);
+  display: flex;
+  align-items: flex-start;
+}
+.container header .navbar {
+  display: flex;
+  justify-content: start;
+  gap: 43px;
+  list-style: none;
+}
+.container header .navbar a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.96px;
+  color: rgb(8, 9, 10);
+}
+.container header .language {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.container section .section_banner {
+  padding: 100px 0 0 71px;
+}
+.container section .section_banner .section_banner_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 585px;
+}
+.container section .section_banner .section_banner_left h2 {
+  font-family: Rubik;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(140, 197, 249);
+  white-space: nowrap;
+  margin: 0;
+}
+.container section .section_banner .section_banner_left p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+  max-width: 550px;
+  margin: 0;
+}
+.container section .section_banner .section_banner_left button {
+  padding: 17px 0;
+  max-width: 250px;
+  width: 100%;
+  gap: 0px;
+  border-radius: 10px;
+  color: white;
+  background: rgb(140, 197, 249);
+  border: none;
+  outline: none;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+}
+.container section .section_banner .section_banner_right {
+  max-width: 561px;
+}
+.container section .section_banner .section_banner_right img {
+  width: 100%;
+}
+.container section .section_statistical {
+  display: flex;
+  justify-content: center;
+  margin-top: 157px;
+}
+.container section .section_statistical .section_statistical_group {
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 70px 90px;
+  border-radius: 10px;
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+}
+.container section .section_statistical .section_statistical_group > div {
+  display: flex;
+  gap: 37px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.container section .section_statistical .section_statistical_group > div img {
+  width: 55px;
+  height: 55px;
+}
+.container section .section_statistical .section_statistical_group > div h4 {
+  font-family: Rubik;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0;
+}
+.container section .section_statistical .section_statistical_group > div p {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(79, 86, 101);
+  line-height: 30px;
+  margin: 0;
+}
+.container section .section_statistical .section_statistical_group > div:nth-child(2) {
+  border-right: 2px solid rgb(238, 239, 242);
+  border-left: 2px solid rgb(238, 239, 242);
+}
+.container section .section_features {
+  justify-content: space-between;
+  margin-top: 95px;
+}
+.container section .section_features .section_features_left {
+  max-width: 558px;
+}
+.container section .section_features .section_features_left img {
+  width: 100%;
+  object-fit: cover;
+}
+.container section .section_features .section_features_right {
+  max-width: 428px;
+}
+.container section .section_features .section_features_right h4 {
+  margin: 0;
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: rgb(140, 197, 249);
+}
+.container section .section_features .section_features_right p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+}
+.container section .section_features .section_features_right > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container section .section_features .section_features_right > div > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+}
+.container section .section_features .section_features_right a {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(140, 197, 249);
+  text-decoration: none;
+  margin-left: 34px;
+  margin-top: 25px;
+}
+.container section .section_products {
+  padding: 80px 0;
+}
+.container section .section_products .section_products_group {
+  display: flex;
+  gap: 52px 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 80px;
+}
+.container section .section_products .section_products_group > div {
+  width: 31.33%;
+  gap: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px 36px;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.container section .section_products .section_products_group > div:hover {
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+}
+.container section .section_products .section_products_group > div h4 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.container section .section_products .section_products_group > div button {
+  width: 148.74px;
+  height: 39.76px;
+  border-radius: 47px;
+  border: 2px solid rgb(140, 197, 249);
+  color: rgb(140, 197, 249);
+  background: transparent;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+.container section .section_products .section_products_group > div p {
+  max-width: 297px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.container section .section_relations .section_relations_heading p {
+  max-width: 555px;
+}
+.container section .section_relations .section_relations_group {
+  text-align: center;
+  margin-top: 155px;
+}
+.container section .section_relations .section_relations_group img {
+  width: 100%;
+  object-fit: cover;
+}
+.container section .section_socials .section_socials_group {
+  max-width: 1135px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.container section .section_socials .section_socials_group img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 300px;
+}
+.container section .section_customers {
+  overflow: hidden;
+}
+.container section .section_customers .section_customers_heading p {
+  max-width: 555px;
+}
+.container section .section_customers .section_customers_slider {
+  gap: 50px;
+  margin-top: 48px;
+  width: 1740px;
+  transform: translateX(-100px);
+  animation: slide 4s linear infinite;
+}
+.container section .section_customers .section_customers_slider > div {
+  max-width: 400px;
+  border: 2px solid rgb(140, 197, 249);
+  border-radius: 10px;
+  padding: 30px 25px 25px 30px;
+}
+.container section .section_customers .section_customers_slider > div > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.container section .section_customers .section_customers_slider > div > div img {
+  width: 50px;
+  height: 50px;
+}
+.container section .section_customers .section_customers_slider > div > div h4,
+.container section .section_customers .section_customers_slider > div > div p {
+  margin: 0;
+}
+.container section .section_customers .section_customers_slider > div > div:nth-child(2) {
+  margin-top: 10px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-100px);
+  }
+  25% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }
+}
+.container section .section_customers .scrollbar {
+  height: 11px;
+  width: 134px;
+  border-radius: 13px;
+  background: rgb(245, 250, 254);
+  margin: auto;
+  margin-top: 72px;
+  position: relative;
+}
+.container section .section_customers .scrollbar::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 100%;
+  background: rgb(140, 197, 249);
+  border-radius: 13px;
+  animation: scrolling 4s linear infinite;
+}
+@keyframes scrolling {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 100%;
+  }
+  75% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.container section .section_contact {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  transform: translateY(100px);
+  z-index: 1;
+}
+.container section .section_contact > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 58px 68px;
+}
+.container section .section_contact > div h4 {
+  font-family: Rubik;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 45px;
+  max-width: 371px;
+  margin: 0;
+}
+.container section .section_contact > div p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 410px;
+  margin: 0;
+}
+.container section .section_contact > div button {
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  background: rgb(140, 197, 249);
+  color: white;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.container footer {
+  display: flex;
+  background: rgb(248, 248, 248);
+  justify-content: space-between;
+  padding: 185px 150px;
+}
+.container footer .footer_brand_logo {
+  font-family: Marko One;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  display: flex;
+  color: rgb(140, 197, 249);
+}
+.container footer .footer_brand_info {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgb(189, 189, 189);
+  max-width: 400px;
+}
+.container footer .footer_brand p {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.container footer .footer_cate {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container footer .footer_cate ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container footer .footer_cate ul li a {
+  text-decoration: none;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+}
+.container footer .footer_brand_social_media {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container header .navbar {
+    display: none;
+  }
+  .container header .icon {
+    display: block !important;
+    color: black;
+  }
+  .container section .section_banner {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .container section .section_banner .section_banner_left {
+    align-items: center;
+    gap: 20px;
+  }
+  .container section .section_banner .section_banner_left h2 {
+    white-space: wrap;
+  }
+  .container section .section_statistical {
+    margin-top: 50px;
+  }
+  .container section .section_statistical .section_statistical_group {
+    padding: 10px;
+    flex-direction: column;
+    align-items: start;
+  }
+  .container section .section_statistical .section_statistical_group > div {
+    justify-content: flex-start;
+  }
+  .container section .section_features {
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .container section .section_socials .section_socials_group {
+    flex-wrap: wrap;
+  }
+  .container section .section_contact > div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .container section .section_products_group {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container section .section_products_group > div {
+    width: 100% !important;
+  }
+  .container footer {
+    flex-direction: column;
+    padding-left: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

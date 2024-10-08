@@ -1,0 +1,11 @@
+{
+  "name": "cy_buoi6",
+  "version": "1.0.0",
+  "description": "cy_frontend",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch ./scss/:./css/"
+  },
+  "author": "tmt",
+  "license": "ISC"
+}

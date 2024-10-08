@@ -1,0 +1,29 @@
+@mixin screen($screen) {
+    max-width: $screen;
+    width: 100%;
+    margin: auto;
+}
+
+%flex_holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+%heading_paragraph {
+    text-align: center;
+    h3 {
+        font-family: Rubik;
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 50px;
+        text-align: center;
+    }
+    p {
+        @include screen(776px);
+        text-align: center;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+}
