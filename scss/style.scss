@@ -311,6 +311,8 @@
 
         .section_customers {
             overflow: hidden;
+            max-width: 1440px;
+            margin: auto;
             .section_customers_heading {
                 @extend %heading_paragraph;
                 p {
@@ -321,6 +323,7 @@
             .section_customers_slider {
                 @extend %flex_holder;
                 gap: 50px;
+                margin: auto;
                 margin-top: 48px;
                 width: 1740px;
                 transform: translateX(-100px);
@@ -331,6 +334,7 @@
                     border: 2px solid $primary_color;
                     border-radius: 10px;
                     padding: 30px 25px 25px 30px;
+                    flex-shrink: 0;
                     > div {
                         display: flex;
                         align-items: center;
